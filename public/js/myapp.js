@@ -14,7 +14,7 @@ const mwindDirection=document.querySelector('#windDirection');
 
 const weatherInput = document.querySelector('form');
 const search = document.querySelector('input');
-
+mlongitude.textContent=search;
 weatherInput.addEventListener('submit', (e) => {
     e.preventDefault();
     // prevent us from refreshing browser each time
