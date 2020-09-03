@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Weather
+    </title>
+    <link rel="icon" href="/Images/cloud.png">
+
+    <style>
+        body {
+            background-image: url('/Images/wall.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="weathervalues">
+    <div>
+        {{>headers}}
+
+        <p>
+        
+
+        </p>
+        <form spellcheck="false"> 
+            <input placeholder="Enter Location">
+            <button>
+                Search Weather
+            </button>
+        </form>
+      
+<h1 id="location"></h1>
+        <h1 id="dateAndTime"></h1>
+        <h1 id="temperature"></h1>
+        <h1 id="precipitationChance"></h1>
+        <h1 id="latitude"></h1>
+        <h1 id="longitude"></h1>
+        <h1 id="windDirection"></h1>
+
+
+
+    </div>
+
+    <!comment this must be After Form to Process Entered Location>
+        <script src='/js/MyApp.js'>
+        </script>
+
+</body>
+
+</p class="bottom_p">
+
+<p>
+<p>Created By Sudhir Pal</p>
+<p>Gmail: sudhirnandlalpal@gmail.com</p>
+
+</p>
+
+</html>
