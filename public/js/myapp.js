@@ -14,7 +14,7 @@ const mwindDirection=document.querySelector('#windDirection');
 
 const weatherInput = document.querySelector('form');
 const search = document.querySelector('input');
-mlongitude.textContent=search;
+
 weatherInput.addEventListener('submit', (e) => {
     e.preventDefault();
     // prevent us from refreshing browser each time
@@ -29,7 +29,7 @@ weatherInput.addEventListener('submit', (e) => {
     const Addresh = search.value;
     console.log(Addresh);
     console.log('---testing--');
-    fetch('/weather?search=+${Addresh}').then((response) => {
+    fetch('/weather?search='+Addresh).then((response) => {
     
 
        
