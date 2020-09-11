@@ -16,3 +16,12 @@ To Run The Project From Local Machine Use node src/app.js  From web_servers fold
             :arrow_right::arrow_right::arrow_right::arrow_right:    |_404.hbs<br />
             :arrow_right::arrow_right::arrow_right::arrow_right:    |_about.hbs<br />
              :arrow_right::arrow_right::arrow_right::arrow_right:   |_weather.hbs<br />
+             
+ ## Requirements
+ ### For development of the project I Uses Following
+ :one: HTTP Requests with callback functions
+ :two: Express
+ :three: Handlerbars
+ :four: Browser HTTP Requests with Fetch
+ :five:CSS 
+ :six:Deployment platform: Heroku 
