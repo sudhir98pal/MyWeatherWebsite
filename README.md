@@ -19,9 +19,9 @@ To Run The Project From Local Machine Use node src/app.js  From web_servers fold
              
  ## Requirements
  ### For development of the project I Uses Following
- :one: HTTP Requests with callback functions
- :two: Express
- :three: Handlerbars
- :four: Browser HTTP Requests with Fetch
- :five:CSS 
- :six:Deployment platform: Heroku 
+ :one: HTTP Requests with callback functions<br />
+ :two: Express<br />
+ :three: Handlerbars<br />
+ :four: Browser HTTP Requests with Fetch<br />
+ :five:CSS <br />
+ :six:Deployment platform: Heroku <br />
